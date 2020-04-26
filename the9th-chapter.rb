@@ -1,6 +1,7 @@
-def greeting(name)
-	"Hello, #{name}!" # nameの中には、文字列'John'が入っている
+def greeting
+	'Hello, John!'
+	'Hi, John!' # 'Hi, John!'が、このメソッドの戻り値
+
 end
 
-puts greeting('John') # ここでは'John'を引数として渡している
-
+puts greeting # greetingメソッドの戻り値を、putsメソッドで出力する

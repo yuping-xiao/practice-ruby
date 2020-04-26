@@ -1,6 +1,6 @@
 def greeting
-	'Hello, John!'
-	'Hi, John!' # 'Hi, John!'が、このメソッドの戻り値
+	return 'Hello, John!' # 'Hi, John!'が、このメソッドの戻り値
+	'Hi, John!'
 
 end
 
